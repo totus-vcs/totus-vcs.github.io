@@ -1,184 +1,117 @@
 
 const Footer = () => {
     return <div>
-        {/* <!-- Sign up CTA --> */}
-        <section class="container">
-            <div class="bg-dark border border-light rounded-3 py-5 px-4 px-sm-0">
-                <div class="row justify-content-center py-sm-2 py-lg-5">
-                    <div class="col-xl-6 col-lg-7 col-md-8 col-sm-10 text-center">
-                        <h2 class="h1 text-light mb-4">Any questions or thoughts?</h2>
-                        <p class="fs-lg text-light opacity-70 pb-4 mb-3">
-                            Share your feedback with us!
-                        </p>
 
-                        {/* <!-- Desktop form --> */}
+        <footer className="footer pt-10 pb-4 pb-lg-5">
+            <div className="container pt-lg-4">
+                <div className="row pb-5">
+                    <div className="col-lg-4 col-md-6">
+                        <div className="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
 
-                        <button type="submit" class="btn btn-primary" href="">
-                            Feedback Form
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer class="footer pt-5 pb-4 pb-lg-5">
-            <div class="container pt-lg-4">
-                <div class="row pb-5">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
+                            {/* Totus Image */}
                             <img
                                 src="assets/img/Totus_FRONT.png"
-                                width="100"
-                                alt="Silicon"
+                                width="75"
+                                alt="Totus"
                             />
                             <img
                                 src="assets/img/TotusText.png"
-                                width="300"
-                                alt="Silicon"
+                                width="200"
+                                alt="Vehicle Control Systems"
                             />
                         </div>
-                        <p class="fs-sm pb-lg-3 mb-4">
-                            Proin ipsum pharetra, senectus eget scelerisque varius pretium
-                            platea velit. Lacus, eget eu vitae nullam proin turpis etiam
-                            mi sit. Non feugiat feugiat egestas nulla nec. Arcu tempus,
-                            eget elementum dolor ullamcorper sodales ultrices eros.
+
+                        {/* Footer Text  */}
+                        <p className="fs-sm pb-lg-1 mb-1">
+                            Trucks roll down highways without a soul,<br />
+                            Autonomous driving taking control,<br />
+                            Remotely operated, no need for a driver's role,<br />
+                            A new era in trucking, a technological goal,<br />
+                            The future arrives, transporting goods with ease and whole.<br/> 
+                            
                         </p>
+                        <p className="font-italic">- ChatGPT</p>
                     </div>
-                    <div class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
-                        <div id="footer-links" class="row">
-                            <div class="col-lg-4">
-                                <h6 class="mb-2">
-                                    <a
-                                        href="#useful-links"
-                                        class="d-block text-dark dropdown-toggle d-lg-none py-2"
-                                        data-bs-toggle="collapse"
-                                    >
-                                        Useful Links
-                                    </a>
-                                </h6>
+
+                    {/* Footer links */}
+                    <div className="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
+                        <div id="footer-links" className="row">
+                             {/* Column 1 */}
+                            <div className="col-lg-2">
                                 <div
                                     id="useful-links"
-                                    class="collapse d-lg-block"
+                                    className="collapse d-lg-block"
                                     data-bs-parent="#footer-links"
                                 >
-                                    <ul class="nav flex-column pb-lg-1 mb-lg-3">
-                                        <li class="nav-item">
+                                    <ul className="nav flex-column pb-lg-1 mb-lg-3">
+                                        <li className="nav-item">
                                             <a
-                                                href="#"
-                                                class="nav-link d-inline-block px-0 pt-1 pb-2"
+                                                href="/"
+                                                className="nav-link d-inline-block px-0 pt-1 pb-2"
                                             >
                                                 Home
                                             </a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li className="nav-item">
                                             <a
-                                                href="#"
-                                                class="nav-link d-inline-block px-0 pt-1 pb-2"
+                                                href="/updates"
+                                                className="nav-link d-inline-block px-0 pt-1 pb-2"
                                             >
-                                                Features
+                                                Updates
                                             </a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li className="nav-item">
                                             <a
-                                                href="#"
-                                                class="nav-link d-inline-block px-0 pt-1 pb-2"
+                                                href="/media"
+                                                className="nav-link d-inline-block px-0 pt-1 pb-2"
                                             >
-                                                Integrations
+                                                Media
                                             </a>
                                         </li>
-                                        <li class="nav-item">
-                                            <a
-                                                href="#"
-                                                class="nav-link d-inline-block px-0 pt-1 pb-2"
-                                            >
-                                                Our Clients
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a
-                                                href="#"
-                                                class="nav-link d-inline-block px-0 pt-1 pb-2"
-                                            >
-                                                Blog
-                                            </a>
-                                        </li>
+
                                     </ul>
-                                    <ul class="nav flex-column mb-2 mb-lg-0">
-                                        <li class="nav-item">
-                                            <a
-                                                href="#"
-                                                class="nav-link d-inline-block px-0 pt-1 pb-2"
-                                            >
-                                                Terms &amp; Conditions
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a
-                                                href="#"
-                                                class="nav-link d-inline-block px-0 pt-1 pb-2"
-                                            >
-                                                Privacy Policy
-                                            </a>
-                                        </li>
-                                    </ul>
+
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-lg-3">
-                                <h6 class="mb-2">
-                                    <a
-                                        href="#social-links"
-                                        class="d-block text-dark dropdown-toggle d-lg-none py-2"
-                                        data-bs-toggle="collapse"
-                                    >
-                                        Socials
-                                    </a>
-                                </h6>
+                            <div className="col-xl-4 col-lg-3">
                                 <div
                                     id="social-links"
-                                    class="collapse d-lg-block"
+                                    className="collapse d-lg-block"
                                     data-bs-parent="#footer-links"
                                 >
-                                    <ul class="nav flex-column mb-2 mb-lg-0">
-                                        <li class="nav-item">
+                                    <ul className="nav flex-column mb-2 mb-lg-0">
+                                        <li className="nav-item">
                                             <a
-                                                href="#"
-                                                class="nav-link d-inline-block px-0 pt-1 pb-2"
+                                                href="/#team"
+                                                className="nav-link d-inline-block px-0 pt-1 pb-2"
                                             >
-                                                Facebook
+                                                Our Team
                                             </a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li className="nav-item">
                                             <a
-                                                href="#"
-                                                class="nav-link d-inline-block px-0 pt-1 pb-2"
+                                                href="/#links"
+                                                className="nav-link d-inline-block px-0 pt-1 pb-2"
                                             >
-                                                LinkedIn
+                                                Quick Links
                                             </a>
                                         </li>
-                                        <li class="nav-item">
+                                        <li className="nav-item">
                                             <a
                                                 href="#"
-                                                class="nav-link d-inline-block px-0 pt-1 pb-2"
+                                                className="nav-link d-inline-block px-0 pt-1 pb-2"
                                             >
-                                                Twitter
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a
-                                                href="#"
-                                                class="nav-link d-inline-block px-0 pt-1 pb-2"
-                                            >
-                                                Instagram
+                                                TOTUS LinkedIn
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
-                                <h6 class="mb-2">Contact Client</h6>
+                            <div className="col-xl-4 col-lg-5 pt-2 pt-lg-0">
+                                <h6 className="mb-2">Contact Client</h6>
                                 <a
                                     href="mailto:alexander.ollman@gmail.com"
-                                    class="fw-medium"
+                                    className="fw-medium"
                                 >
                                     alexander.ollman@gmail.com
                                 </a>

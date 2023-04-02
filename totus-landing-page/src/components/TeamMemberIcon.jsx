@@ -13,13 +13,13 @@ const TeamMemberIcon = ({ name, role, imageLoc, linkedInUrl }) => {
         <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center rounded-3">
           <span class="position-absolute top-0 start-0 w-100 h-100 bg-dark opacity-25 rounded-3"></span>
           <div class="position-relative d-flex zindex-2">
-            
+            {linkedInUrl &&
             <a
               href={linkedInUrl}
               class="btn btn-icon btn-secondary btn-linkedin btn-sm bg-white me-2"
             >
               <i class="bx bxl-linkedin"></i>
-            </a>
+            </a>}
           </div>
         </div>
       </div>
