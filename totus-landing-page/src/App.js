@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, HashRouter, Routes, Route } from "react-router-dom";
 
 import Navbar from "./scenes/navbar";
 import Footer from "./scenes/footer";
@@ -10,10 +10,14 @@ import FeedbackBox from "./scenes/FeedbackBox";
 import 'atropos/css'
 import BlogPage from "./scenes/Blog/BlogPage";
 import Post1 from "./scenes/Blog/Posts/01-welcome-to-totus";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
   return (
+    <HashRouter>
+      <ScrollToTop/>
+
     <div className="App">
       <header className="App-header">
 
@@ -31,12 +35,9 @@ function App() {
 
           {/* NAV BAR */}
           <Navbar />
-
-          <BrowserRouter>
-            <Routes>
-
+          
               {/* PAGES */}
-
+            <Routes> 
               <Route path="/" element={<div> <Home /> <FeedbackBox/> </div>} />
               <Route path="/feedback" element={<Feedback/>} />
               <Route path="/project-updates" element={<div> <BlogPage/> <FeedbackBox/> </div>} />
@@ -46,13 +47,15 @@ function App() {
               <Route path="/01-welcome-to-totus" element={<Post1/>} />
 
             </Routes>
-          </BrowserRouter>
+     
         </main>
 
         {/* <!-- Footer --> */}
         <Footer />
       </header>
     </div>
+    </HashRouter>
+
   );
 }
 

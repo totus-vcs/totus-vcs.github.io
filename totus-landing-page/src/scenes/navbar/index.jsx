@@ -27,11 +27,11 @@ const Navbar = () => {
             {/* {/* Right align buttons  */}
             <form className="justify-content-end">
 
-                <Link className="btn btn-sm btn-outline-primary me-2" type="button" href="/project-updates">
+                <Link className="btn btn-sm btn-outline-primary me-2" type="button" to="/project-updates">
                     Project Updates
                 </Link>
 
-                <Link className="btn btn-sm btn-outline-primary me-2" type="button" href="/media">
+                <Link className="btn btn-sm btn-outline-primary me-2" type="button" to="/media">
                     Media
                 </Link>
 

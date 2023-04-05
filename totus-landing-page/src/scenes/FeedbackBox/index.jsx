@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"; 
 
 const Footer = () => {
     return <div>
@@ -13,9 +14,9 @@ const Footer = () => {
 
                         {/* <!-- Desktop form --> */}
 
-                        <a href="/feedback" className="btn btn-primary">
+                        <Link to="/feedback" className="btn btn-primary">
                             Feedback Form
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"; 
 
 
 const BlogPreview = ({ bgImage, pageref, date, title, previewText, authorAvatar}) => {
@@ -10,8 +11,8 @@ const BlogPreview = ({ bgImage, pageref, date, title, previewText, authorAvatar}
           minHeight: "15rem",
         }}
       >
-        <a
-          href={pageref}
+        <Link
+          to={pageref}
           className="position-absolute top-0 start-0 w-100 h-100"
           aria-label="Read more"
         />
@@ -26,9 +27,9 @@ const BlogPreview = ({ bgImage, pageref, date, title, previewText, authorAvatar}
           </div>
           <h3 className="h4">
 
-            <a href={pageref}>
+            <Link to={pageref}>
               {title}
-            </a>
+            </Link>
           </h3>
 
 

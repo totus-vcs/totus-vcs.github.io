@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"; 
 
 const Footer = () => {
     return <div>
@@ -37,7 +38,7 @@ const Footer = () => {
                     <div className="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
                         <div id="footer-links" className="row">
                              {/* Column 1 */}
-                            <div className="col-lg-2">
+                            <div className="col-xl-4 col-lg-3">
                                 <div
                                     id="useful-links"
                                     className="collapse d-lg-block"
@@ -45,56 +46,28 @@ const Footer = () => {
                                 >
                                     <ul className="nav flex-column pb-lg-1 mb-lg-3">
                                         <li className="nav-item">
-                                            <a
-                                                href="/"
+                                            <Link
+                                                to="/"
                                                 className="nav-link d-inline-block px-0 pt-1 pb-2"
                                             >
                                                 Home
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a
-                                                href="/updates"
+                                            <Link
+                                                to="/project-updates"
                                                 className="nav-link d-inline-block px-0 pt-1 pb-2"
                                             >
                                                 Updates
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
-                                            <a
-                                                href="/media"
+                                            <Link
+                                                to="/media"
                                                 className="nav-link d-inline-block px-0 pt-1 pb-2"
                                             >
                                                 Media
-                                            </a>
-                                        </li>
-
-                                    </ul>
-
-                                </div>
-                            </div>
-                            <div className="col-xl-4 col-lg-3">
-                                <div
-                                    id="social-links"
-                                    className="collapse d-lg-block"
-                                    data-bs-parent="#footer-links"
-                                >
-                                    <ul className="nav flex-column mb-2 mb-lg-0">
-                                        <li className="nav-item">
-                                            <a
-                                                href="/#team"
-                                                className="nav-link d-inline-block px-0 pt-1 pb-2"
-                                            >
-                                                Our Team
-                                            </a>
-                                        </li>
-                                        <li className="nav-item">
-                                            <a
-                                                href="/#links"
-                                                className="nav-link d-inline-block px-0 pt-1 pb-2"
-                                            >
-                                                Quick Links
-                                            </a>
+                                            </Link>
                                         </li>
                                         <li className="nav-item">
                                             <a
@@ -104,9 +77,12 @@ const Footer = () => {
                                                 TOTUS LinkedIn
                                             </a>
                                         </li>
+
                                     </ul>
+
                                 </div>
                             </div>
+                            
                             <div className="col-xl-4 col-lg-5 pt-2 pt-lg-0">
                                 <h6 className="mb-2">Contact Client</h6>
                                 <a

@@ -7,8 +7,8 @@ import LiamAuthor from "../../components/AuthorAvatar/LiamAuthor"
 
 import BlogPreview from "../../components/BlogPreview"
 
-
 const FeedbackBox = () => {
+ 
   return <section class="container py-5 my-md-3 my-lg-5" id="FeedbackBox">
     <div>
 
