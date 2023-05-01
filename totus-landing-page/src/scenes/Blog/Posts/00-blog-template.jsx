@@ -1,9 +1,10 @@
 import EvangelineAuthor from "../../../components/AuthorAvatar/EvangelineAuthor"
-import BoruiAuthor from "../../../components/AuthorAvatar/BoruiAuthor"
-import DanielAuthor from "../../../components/AuthorAvatar/DanielAuthor"
-import TirrnAuthor from "../../../components/AuthorAvatar/TirrnAuthor"
-import YuqiAuthor from "../../../components/AuthorAvatar/YuqiAuthor"
-import LiamAuthor from "../../../components/AuthorAvatar/LiamAuthor"
+// import BoruiAuthor from "../../../components/AuthorAvatar/BoruiAuthor"
+// import DanielAuthor from "../../../components/AuthorAvatar/DanielAuthor"
+// import TirrnAuthor from "../../../components/AuthorAvatar/TirrnAuthor"
+// import YuqiAuthor from "../../../components/AuthorAvatar/YuqiAuthor"
+// import LiamAuthor from "../../../components/AuthorAvatar/LiamAuthor"
+import { Link } from "react-router-dom"; 
 
 export default function () {
   return <section class="container py-5 my-md-2 my-lg-4 my-xl-5">
@@ -24,6 +25,9 @@ export default function () {
 
           {/* CHANGE AUTHOR AVATAR */}
           <EvangelineAuthor />
+          
+          {/* Leave */}
+          <hr className="my-4" />
 
 
         </section>
@@ -119,22 +123,22 @@ export default function () {
 
 
             </div>
-            {/* Sidebar - LEAVE */}
+            {/* Sidebar - LEAVE ME ALONE*/}
             <div className="col-lg-3 position-relative">
               <div
                 className="sticky-top ms-xl-5 ms-lg-4 ps-xxl-4 pt-5"
                 style={{ top: "105px !important" }}
               >
-                <a className="btn btn-lg btn-outline-secondary" href="/project-updates">
+                <Link className="btn btn-lg btn-outline-secondary" to="/project-updates">
                   <i className="bx bx-back me-2 lead " />
                   Back to Project Updates
-                </a>
+                </Link>
                 <h6 className='pt-5'>Like what we are doing? </h6>
-                
-                <a className="btn btn-lg btn-outline-secondary" href="/feedback">
+
+                <Link className="btn btn-lg btn-outline-secondary" to="/feedback">
                   <i className="bx bx-like me-2 lead" />
                   Leave a message
-                </a>
+                </Link>
               </div>
             </div>
           </div>

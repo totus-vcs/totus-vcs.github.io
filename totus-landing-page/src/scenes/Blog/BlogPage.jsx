@@ -26,12 +26,23 @@ const FeedbackBox = () => {
 
           <BlogPreview
             bgImage={"url(assets/img/blog_post_images/TeamThumbsUp.jpg)"}
+            pageref="/02-intervews-with-stakeholders"
+            date={"April 17, 2023"}
+            title={"Interviews with Stakeholders"}
+            previewText={"This week we had a chat with some great stakeholders and researchers, and gained some very insightful information about our project."}
+            authorAvatar={<div><DanielAuthor/><LiamAuthor/></div>}
+          />
+
+          <BlogPreview
+            bgImage={"url(assets/img/blog_post_images/TeamThumbsUp.jpg)"}
             pageref="/01-welcome-to-totus"
             date={"March 10, 2023"}
             title={"Welcome to Totus 2023"}
-            previewText={"Following the COVID-19 pandemic and an increasing demand for truck drivers in Australia the logistics industry is facing more challenges than ever. That's why we are developing a unique solution that will revolutionize the industry: our remote-controlled trucks. Drivers, and logistics companies can now operate their fleets from the comfort of their own offices or homes. Our technology ..."}
+            previewText={"Following the COVID-19 pandemic and an increasing demand for truck drivers in Australia the logistics industry is facing more challenges than ever. This is where TOTUS comes in..."}
             authorAvatar={<EvangelineAuthor/>}
           />
+
+          
 
 
         </section>

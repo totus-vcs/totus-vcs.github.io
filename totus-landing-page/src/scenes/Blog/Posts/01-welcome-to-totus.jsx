@@ -1,9 +1,9 @@
 import EvangelineAuthor from "../../../components/AuthorAvatar/EvangelineAuthor"
-import BoruiAuthor from "../../../components/AuthorAvatar/BoruiAuthor"
-import DanielAuthor from "../../../components/AuthorAvatar/DanielAuthor"
-import TirrnAuthor from "../../../components/AuthorAvatar/TirrnAuthor"
-import YuqiAuthor from "../../../components/AuthorAvatar/YuqiAuthor"
-import LiamAuthor from "../../../components/AuthorAvatar/LiamAuthor"
+// import BoruiAuthor from "../../../components/AuthorAvatar/BoruiAuthor"
+// import DanielAuthor from "../../../components/AuthorAvatar/DanielAuthor"
+// import TirrnAuthor from "../../../components/AuthorAvatar/TirrnAuthor"
+// import YuqiAuthor from "../../../components/AuthorAvatar/YuqiAuthor"
+// import LiamAuthor from "../../../components/AuthorAvatar/LiamAuthor"
 import { Link } from "react-router-dom"; 
 
 export default function () {
@@ -25,6 +25,9 @@ export default function () {
 
           {/* CHANGE AUTHOR AVATAR */}
           <EvangelineAuthor />
+          
+          {/* Leave */}
+          <hr className="my-4" />
 
 
         </section>

@@ -36,6 +36,7 @@ const BlogPreview = ({ bgImage, pageref, date, title, previewText, authorAvatar}
           <p>
             {previewText}
           </p>
+          <hr className="my-4" />
           {authorAvatar}
         </div>
       </div>

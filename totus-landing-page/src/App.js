@@ -8,10 +8,12 @@ import FeedbackBox from "./scenes/FeedbackBox";
 
 
 import 'atropos/css'
+
 import BlogPage from "./scenes/Blog/BlogPage";
 import Post1 from "./scenes/Blog/Posts/01-welcome-to-totus";
+import Post2 from "./scenes/Blog/Posts/02-interviews-with-stakeholders";
 import ScrollToTop from "./components/ScrollToTop";
-
+import MediaPage from "./scenes/media";
 
 function App() {
   return (
@@ -40,11 +42,13 @@ function App() {
             <Routes> 
               <Route path="/" element={<div> <Home /> <FeedbackBox/> </div>} />
               <Route path="/feedback" element={<Feedback/>} />
+              <Route path="/media" element={<MediaPage/>} />
               <Route path="/project-updates" element={<div> <BlogPage/> <FeedbackBox/> </div>} />
 
 
               {/* BLOG PAGES */}
               <Route path="/01-welcome-to-totus" element={<Post1/>} />
+              <Route path="/02-intervews-with-stakeholders" element={<Post2/>} />
 
             </Routes>
      

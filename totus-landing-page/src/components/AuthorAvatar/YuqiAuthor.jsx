@@ -1,6 +1,6 @@
 
 const YuqiAuthor = () => {
-    return <div> <hr className="my-4" />
+    return <div> <div className="my-4" />
         <div className="d-flex align-items-center justify-content-between">
             <a
 

@@ -71,7 +71,7 @@ const Footer = () => {
                                         </li>
                                         <li className="nav-item">
                                             <a
-                                                href="#"
+                                                href="https://www.linkedin.com/company/totus-vehicle-control-systems/"
                                                 className="nav-link d-inline-block px-0 pt-1 pb-2"
                                             >
                                                 TOTUS LinkedIn
