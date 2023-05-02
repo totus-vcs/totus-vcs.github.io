@@ -76,9 +76,20 @@ export default function () {
                                     <a 
                                         href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EtU7WtjVRihEpo2c-rSuarABfsS4hVUROmKjQ_jyLZHn7Q?e=frAhF1" 
                                         class="btn btn-light w-100 mb-2">
-                                        View Submission
+                                        View Design and Testing Folder
+                                    </a>
+                                    <a 
+                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/ErSDq3GNZQVLve-D1TvyuXEBm5pMssZLkPtW6zyvcAEFZg?e=ook5Hc" 
+                                        class="btn btn-light w-100 mb-2">
+                                        View Research and Scoping Folder
+                                    </a>
+                                    <a 
+                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Espp_gUWN3RMqpHnGrELzWkBHcB6P6gQgwF9bya0adt21A?e=hUdULP" 
+                                        class="btn btn-light w-100 mb-2">
+                                        View Stakeholder Interviews
                                     </a>
                                 </div>
+                                
                             </div>
                         </div>
 

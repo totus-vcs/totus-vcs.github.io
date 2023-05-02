@@ -31,21 +31,7 @@ export default function () {
           <hr className="my-4" />
 
         </section>
-        <div
-          className="jarallax mb-lg-5 mb-4"
-          data-jarallax
-          data-speed="0.35"
-          style={{ height: "36.45vw", minHeight: 300 }}
-        >
-
-          {/* CHANGE URL OF IMAGE BELOW */}
-          <div
-            className="jarallax-img"
-            style={{
-              backgroundImage: "url(assets/img/blog/single/cover-image.jpg)",
-            }}
-          />
-        </div>
+     
 
         {/* Post Content - in this section/divider*/}
         <section className="container mb-5 pt-4 pb-2 py-mg-4">
@@ -104,34 +90,58 @@ export default function () {
               </figure> */}
 
               {/* Paragraph title */}
-              <h2 className="h4">Ben Swift - ANU School of Cybernetics</h2>
+              <h2 className="h4">Justin's Perspective: A Former Truck Driver's Take on our Project</h2>
 
               {/* Normal Text */}
               <p className="mb-4 pb-2">
-              Tirrn and Daniel had the pleasure of interviewing Dr. Ben Swift. Ben is the school of cybernetics' associate director (Education) responsible for overseeing the overall education portfolio, including the Master of Applied Cybernetics. Ben is an internationally recognised interdisciplinary scholar and electronic/computer music artist. He’s an expert in computational art and music, AI/machine learning, data vis/data science and user experience (UX) design. 
+              In the world of innovation, practical insights from individuals with hands-on experience hold 
+              immense value. Meet Justin, a former truck driver who shares his perspective on our project, 
+              shedding light on its potential impact on the trucking industry. In this blog post, we delve 
+              into our interview with Justin to explore his unique viewpoint and the ways our project could 
+              bring positive change.               
               <br/> <br/> 
-              Questions such as his general thoughts on the project and feasibility to more technical questions such as technics to reduce latency and suitable languages were asked. A very interesting suggestion that Ben had was to use a gaming controller, such as a Mario Kart Wii controller for the wheel given available libraries online.  
+              Justin's journey began as a truck driver, navigating highways and experiencing the realities 
+              of the profession. His firsthand experience provides a valuable lens through which we can assess 
+              the potential of our project in revolutionizing the trucking industry. Additionally, he knows 
+              many truck drivers firsthand and feels he can accurately speak on their behalf. 
               <br/> <br/> 
-              To watch the full-length interview, visit the External Communication folder in the repository. Thanks, Ben, for his time! 
+              During the interview, Justin highlighted our project's potential to address ongoing challenges 
+              in the trucking industry. From driver shortages to logistics inefficiencies, he recognized how 
+              our project could contribute to improving operational efficiency, reducing costs, and increasing 
+              productivity. One aspect that resonated strongly with Justin was our project's focus on 
+              empowering truck drivers. With his own experience on the road, Justin believes that our project 
+              could enhance work-life balance, reduce fatigue, and increase job satisfaction by enabling 
+              remote vehicle operation. This newfound flexibility could help retain skilled drivers and attract
+               new talent to the industry. 
+              <br/> <br/> 
+              Safety is of utmost importance in the trucking industry, and Justin emphasized the significance 
+              of ensuring the highest standards of safety and reliability with remote-controlled vehicles. He 
+              stressed the need for robust training programs, as well as in office supervision for real-time 
+              monitoring and sobriety testing. Justin also praised the project’s ability to enable shorter 
+              shifts for drivers, as he believed one of the biggest safety issues currently is the extended 
+              hours of consecutive driving that truck drivers currently are required to do. He also stated 
+              that he believes the project would only be applicable for long inter-state drives, as there are 
+              too many hazards present in urban driving. 
+              <br/> <br/> 
+              Justin's perspective as a former truck driver provides practical insights into the potential 
+              impact of our project on the trucking industry. His firsthand experience and understanding of 
+              the challenges faced by drivers highlight the significance of our project's goals. By addressing 
+              industry challenges, empowering drivers, prioritizing safety, and embracing innovation, our project 
+              can drive meaningful change in the trucking industry. Justin's interview serves as a testament to 
+              the potential positive effects of our project and the importance of incorporating diverse perspectives 
+              to shape a better future for trucking.
+              <br/> <br/> 
+              To watch the full-length interview, visit the External Communication folder in the repository. We are very grateful for Justin's Time. 
               </p>
 
               {/* Photo */}
               <div className="mb-4 pb-2" >
                   <img
                     className=""
-                    src="assets/img/blog_post_images/BenSwift.png"
+                    src="assets/img/blog_post_images/InterviewJustin.png"
                     alt="Ben Swift Interview"
                   />
               </div>
-
-              <p className="mb-4 pb-2">
-              For more about Dr Swift:
-              <br/>
-              <a href="https://cybernetics.anu.edu.au/people/ben-swift/">Ben Swift | ANU School of Cybernetics </a> 
-              <br/>
-              <a href="https://benswift.me/">benswift.me | livecoder & researcher homepage - code, creativity, culture </a> 
-              
-              </p>
 
 
             </div>

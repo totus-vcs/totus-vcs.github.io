@@ -1,8 +1,9 @@
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 const MediaPage = () => {
 
     return <section class="container py-5 my-md-3 my-lg-5" id="FeedbackBox">
+
         <div>
 
             <main className="page-wrapper">
@@ -22,7 +23,32 @@ const MediaPage = () => {
                     <section className="container pb-5 mb-2 mb-md-4 mb-lg-5">
                         <div className="row pb-lg-3">
 
+                            {/* JUSTIN */}
+                            {/* Item - Link*/}
+                            <div className="col-md-5 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/InterviewJustin.png" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <Link to="/02-intervews-with-stakeholders" className="stretched-link">
+                                                Chat with Justin, Former Truck Driver
+                                            </Link>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                                Justin shared his perspective on our project, shedding light on its potential impact on the trucking industry.
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
+                            {/* BEN SWIFT */}
                             {/* Item - Link*/}
                             <div className="col-md-5 mb-2">
                                 <div className="card card-portfolio">
@@ -40,19 +66,20 @@ const MediaPage = () => {
                                         <div className="card-portfolio-meta">
                                             {/* Description Text */}
                                             <span className="text-muted">
-                                            Ben is the ANU School of Cybernetics' associate director (Education) responsible for overseeing the overall education portfolio, including the Master of Applied Cybernetics.
+                                                Ben is the ANU School of Cybernetics' associate director (Education) responsible for overseeing the overall education portfolio, including the Master of Applied Cybernetics.
                                             </span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
+                            {/* Team TOTUS */}
                             {/* Item - No Link*/}
                             <div className="col-md-7 mb-2">
                                 <div className="card card-portfolio">
                                     <div className="card-img ">
                                         {/* Image */}
-                                        <img src="assets/img/blog_post_images/totus-team-spelled.jpg" alt="Image"/>
+                                        <img src="assets/img/blog_post_images/totus-team-spelled.jpg" alt="Image" />
                                     </div>
                                     <div className="card-body">
                                         {/* Header */}
@@ -69,6 +96,7 @@ const MediaPage = () => {
                                 </div>
                             </div>
 
+                            {/* TEAM MEETING WITH ALEX  */}
                             {/* Item - No Link*/}
                             <div className="col-md-7 mb-2">
                                 <div className="card card-portfolio">

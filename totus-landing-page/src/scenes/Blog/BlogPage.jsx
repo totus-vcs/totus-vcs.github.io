@@ -25,7 +25,7 @@ const FeedbackBox = () => {
           </div>
 
           <BlogPreview
-            bgImage={"url(assets/img/blog_post_images/TeamThumbsUp.jpg)"}
+            bgImage={"url(assets/img/blog_post_images/InterviewJustin.png)"}
             pageref="/02-intervews-with-stakeholders"
             date={"April 17, 2023"}
             title={"Interviews with Stakeholders"}
