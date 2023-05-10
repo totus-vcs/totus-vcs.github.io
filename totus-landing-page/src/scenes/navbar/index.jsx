@@ -35,6 +35,10 @@ const Navbar = () => {
                     Media
                 </Link>
 
+                <Link className="btn btn-sm btn-outline-primary me-2" type="button" to="/contents">
+                    Contents
+                </Link>
+
                 <a className="btn btn-sm btn-outline-secondary" type="button" href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/ErAc0ZSa1FpPpsEAtDJz43gBSlbknEQfhFSxOLqw1K8uZQ?e=3ZqbSK">
                     Repository
                 </a>

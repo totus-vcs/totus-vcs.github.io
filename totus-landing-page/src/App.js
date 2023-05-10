@@ -14,6 +14,8 @@ import Post1 from "./scenes/Blog/Posts/01-welcome-to-totus";
 import Post2 from "./scenes/Blog/Posts/02-interviews-with-stakeholders";
 import ScrollToTop from "./components/ScrollToTop";
 import MediaPage from "./scenes/media";
+import Contents from "./scenes/contents"
+
 
 function App() {
   return (
@@ -43,6 +45,7 @@ function App() {
               <Route path="/" element={<div> <Home /> <FeedbackBox/> </div>} />
               <Route path="/feedback" element={<Feedback/>} />
               <Route path="/media" element={<MediaPage/>} />
+              <Route path="/contents" element={<Contents/>} />
               <Route path="/project-updates" element={<div> <BlogPage/> <FeedbackBox/> </div>} />
 
 
