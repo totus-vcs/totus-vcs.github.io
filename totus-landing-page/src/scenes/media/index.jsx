@@ -23,6 +23,81 @@ const MediaPage = () => {
                     <section className="container pb-5 mb-2 mb-md-4 mb-lg-5">
                         <div className="row pb-lg-3">
 
+                            {/* ANU Article:  */}
+                            {/* Item - Link*/}
+                            <div className="col-md-5 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/03-externalblog.png" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <a href="https://cecc.anu.edu.au/news/would-you-trust-ai-drive-semi-trailer" className="stretched-link">
+                                            ANU College of Engineering Article: Would you trust AI to drive a semi trailer?
+                                            </a>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                            ANU have published a great article about the TOTUS project, particularly about the project's beginnings in 2022, and a great interview with this project's CEO, Alex!
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Mechanics mid project Update */}
+                            {/* Item - Link*/}
+                            <div className="col-md-5 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/03-mechanics.png" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <Link to="/03-midprojectupdate" className="stretched-link">
+                                                Initial mechanical designs
+                                            </Link>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                                Some initial designs developed by our mechanics team, to show off at the mid project presentation. 
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            {/* Vision mid project Update */}
+                            {/* Item - Link*/}
+                            <div className="col-md-5 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/03-vision.png" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <Link to="/03-midprojectupdate" className="stretched-link">
+                                                Initial vision testing
+                                            </Link>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                                Filming in a car, to get an initial idea about how the vision system will work. 
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             {/* JUSTIN */}
                             {/* Item - Link*/}
                             <div className="col-md-5 mb-2">
@@ -48,6 +123,31 @@ const MediaPage = () => {
                                 </div>
                             </div>
 
+                            {/* MAIA */}
+                            {/* Item - Link*/}
+                            <div className="col-md-5 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/02-maia.jpg" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <Link to="/02-intervews-with-stakeholders" className="stretched-link">
+                                                Chat with Maia, ANU Cybernetics
+                                            </Link>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                                Maia is the Cybernetic Engagements Lead the for the School of Cybernetics. She had interesting legal and ethical perspectives for our project. 
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             {/* BEN SWIFT */}
                             {/* Item - Link*/}
                             <div className="col-md-5 mb-2">
@@ -60,7 +160,7 @@ const MediaPage = () => {
                                         <h2 className="h4 mb-2">
                                             {/* Image Link and Header*/}
                                             <Link to="/02-intervews-with-stakeholders" className="stretched-link">
-                                                Chat with Ben Swift
+                                                Chat with ANU Cybernetics
                                             </Link>
                                         </h2>
                                         <div className="card-portfolio-meta">

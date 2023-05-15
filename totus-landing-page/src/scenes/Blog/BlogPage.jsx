@@ -25,6 +25,15 @@ const FeedbackBox = () => {
           </div>
 
           <BlogPreview
+            bgImage={"url(assets/img/blog_post_images/03-present.jpg)"}
+            pageref="/03-midprojectupdate"
+            date={"May 12, 2023"}
+            title={"Mid Project Update"}
+            previewText={"Yesterday we presented our mid project update to fellow capstone groups at ANU!"}
+            authorAvatar={<EvangelineAuthor/>}
+          />
+
+          <BlogPreview
             bgImage={"url(assets/img/blog_post_images/InterviewJustin.png)"}
             pageref="/02-intervews-with-stakeholders"
             date={"April 17, 2023"}

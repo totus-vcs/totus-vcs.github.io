@@ -12,6 +12,8 @@ import 'atropos/css'
 import BlogPage from "./scenes/Blog/BlogPage";
 import Post1 from "./scenes/Blog/Posts/01-welcome-to-totus";
 import Post2 from "./scenes/Blog/Posts/02-interviews-with-stakeholders";
+import Post3 from "./scenes/Blog/Posts/03-midprojectupdate";
+
 import ScrollToTop from "./components/ScrollToTop";
 import MediaPage from "./scenes/media";
 import Contents from "./scenes/contents"
@@ -52,6 +54,7 @@ function App() {
               {/* BLOG PAGES */}
               <Route path="/01-welcome-to-totus" element={<Post1/>} />
               <Route path="/02-intervews-with-stakeholders" element={<Post2/>} />
+              <Route path="/03-midprojectupdate" element={<Post3/>} />
 
             </Routes>
      
