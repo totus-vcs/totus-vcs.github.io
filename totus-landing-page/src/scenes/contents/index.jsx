@@ -491,7 +491,65 @@ const Contents = () => {
                                 </div>
                             </div>
                         </div>
-
+                        <div class="row align-items-top">
+                            <div className="col card card-portfolio">
+                                <div className="card-body">
+                                    <h2 className="h6 mb-1">
+                                        {/* Image Link and Header*/}
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EtK7JPoI04tGpI4NAv017N0Bg9cal57pNKzeGjSf2tIr-w?e=9UVuMJ">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
+                                        <EngineeringIcon />
+                                        <a className='mx-2'>Hardware</a>
+                                        </button>
+                                        </a>
+                                    </h2>
+                                    <div className="card-portfolio-meta">
+                                        {/* Description Text */}
+                                        <span className="text-muted">
+                                        Contains all prototypes, models, progression, and all other work related to the development of the Hardware System.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col card card-portfolio">
+                                <div className="card-body">
+                                    <h2 className="h6 mb-0">
+                                        {/* Image Link and Header*/}
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EpURtSe97NNBua-yoJ-5nOQBfHIhObsUlePGHsIJC6MPPw?e=JOLCgc">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
+                                        <EngineeringIcon />
+                                        <a className='mx-2'>Software</a>
+                                        </button>
+                                        </a>
+                                    </h2>
+                                    <div className="card-portfolio-meta">
+                                        {/* Description Text */}
+                                        <span className="text-muted">
+                                        Contains all prototypes, models, progression, and all other work related to the development of the Software System.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col card card-portfolio">
+                                <div className="card-body">
+                                    <h2 className="h6 mb-0">
+                                        {/* Image Link and Header*/}
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Evu_RWc5bu9JjOgBROx6C9QB0eO0tM7y0RtlA5DdEKIvug?e=GeFOyE">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
+                                        <EngineeringIcon />
+                                        <a className='mx-2'>Vision</a>
+                                        </button>
+                                        </a>
+                                    </h2>
+                                    <div className="card-portfolio-meta">
+                                        {/* Description Text */}
+                                        <span className="text-muted">
+                                        Contains all prototypes, models, progression, and all other work related to the development of the Vision System.
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </section>
                     <section className="container mt-0 pb-0 mb-0 mb-md-4 mb-sm-0">
                         <div class="row align-items-center">
@@ -567,7 +625,7 @@ const Contents = () => {
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
                                         <span className="text-muted">
-                                            Contains each of the team's profile picuters displayed on the website.
+                                            Contains each of the team's profile pictures displayed on the website.
                                         </span>
                                     </div>
                                 </div>
@@ -816,7 +874,7 @@ const Contents = () => {
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
                                         <span className="text-muted">
-                                            Contains the video of the intervew with Ben Swift, email communication, and interview summary document.
+                                            Contains the video of the interview with Ben Swift, e-mail communication, and interview summary document.
                                         </span>
                                     </div>
                                 </div>
@@ -835,7 +893,7 @@ const Contents = () => {
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
                                         <span className="text-muted">
-                                            Contains the video of the intervew with Justin Varley, messenger communication, and interview summary document.
+                                            Contains the video of the interview with Justin Varley, messenger communication, and interview summary document.
                                         </span>
                                     </div>
                                 </div>
@@ -854,7 +912,7 @@ const Contents = () => {
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
                                         <span className="text-muted">
-                                            Contains the video of the intervew with Maia Gould, email communication, and interview summary document.
+                                            Contains the video of the interview with Maia Gould, e-mail communication, and interview summary document.
                                         </span>
                                     </div>
                                 </div>
@@ -876,7 +934,7 @@ const Contents = () => {
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
                                         <span className="text-muted">
-                                            Contains team values and vision? NEEDS EDITING
+                                            Contains team values and vision.
                                         </span>
                                     </div>
                                 </div>
