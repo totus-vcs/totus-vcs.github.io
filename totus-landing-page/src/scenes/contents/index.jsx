@@ -56,10 +56,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     
                                     <h2 className="h6 mb-0">
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EnkWsDJF_OBEu7rHEM-RFyMBjQYX2P2md1Ij303euOOXjg?e=BG07QU">
+                                    <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EnkWsDJF_OBEu7rHEM-RFyMBjQYX2P2md1Ij303euOOXjg?e=BG07QU">
+                                        <button className='btn btn-sm btn-outline-primary me-2' >
                                         <LibraryBooksIcon/> 
                                         <a className='mx-2'>Capstone Agreement</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -74,10 +76,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2'  href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EtkgvSP56v9MvDVIHYHbvvkBX-NKSz0lmP9ICzil69pi9Q?e=TRWhYR">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EtkgvSP56v9MvDVIHYHbvvkBX-NKSz0lmP9ICzil69pi9Q?e=TRWhYR">
+                                        <button className='btn btn-sm btn-outline-primary me-2' >
                                         <LibraryBooksIcon/> 
                                         <a className='mx-2'>Concept of Operations</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -91,10 +95,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EudKWrQ5p0hBpc5g4qtmAf0B4ESNpM-arq83tC83rCjmmg?e=pUKStb">
+                                        <a  href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EudKWrQ5p0hBpc5g4qtmAf0B4ESNpM-arq83tC83rCjmmg?e=pUKStb">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <LibraryBooksIcon/> 
                                         <a className='mx-2'>Document Templates</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -108,10 +114,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EkC9WlvMmB9FninpNnip1gIB1evVzqhQffqxLKFDGuSLQQ?e=B209b9">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EkC9WlvMmB9FninpNnip1gIB1evVzqhQffqxLKFDGuSLQQ?e=B209b9">
+                                        <button className='btn btn-sm btn-outline-primary me-2' >
                                         <LibraryBooksIcon/> 
                                         <a className='mx-2'>Meeting Minutes</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -127,10 +135,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EsxaHHPa475Cs8Kdhn3xZyEBcGRZr3YGN9XQnDCb19LtVQ?e=6Fc8Xd">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EsxaHHPa475Cs8Kdhn3xZyEBcGRZr3YGN9XQnDCb19LtVQ?e=6Fc8Xd">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <LibraryBooksIcon/> 
                                         <a className='mx-2'>Project Status Reports</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -144,10 +154,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/ErR6ygsTpX1KnW3wSO7xfvEBeGRSlfexzRWZdM_SXcjtuw?e=q57GhC">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/ErR6ygsTpX1KnW3wSO7xfvEBeGRSlfexzRWZdM_SXcjtuw?e=q57GhC">
+                                        <button className='btn btn-sm btn-outline-primary me-2' >
                                         <LibraryBooksIcon/> 
                                         <a className='mx-2'>WHS Risk Assessments</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -161,10 +173,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EpaIU0-y2WlIsWINW9_F9T4BgsW51BfQxtqpkoFGAGJByg?e=qAcFoz">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EpaIU0-y2WlIsWINW9_F9T4BgsW51BfQxtqpkoFGAGJByg?e=qAcFoz">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <LibraryBooksIcon/> 
                                         <a className='mx-2'>Work Structure and Gantt Chart</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -202,10 +216,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-1">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EkQZ7DEa1MpIlCWjvbqWeu4Bn_l59zzsCOcKXrfe9X9djQ?e=6OHIia">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EkQZ7DEa1MpIlCWjvbqWeu4Bn_l59zzsCOcKXrfe9X9djQ?e=6OHIia">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <CoPresentIcon />
                                         <a className='mx-2'>Audit 1</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -219,10 +235,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EnETzEZDyeVNsUEzbZJ6T2ABGoxjmQ9YIKMIP8_wAG7ngw?e=7xmTml">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EnETzEZDyeVNsUEzbZJ6T2ABGoxjmQ9YIKMIP8_wAG7ngw?e=7xmTml">
+                                        <button className='btn btn-sm btn-outline-primary me-2' >
                                         <CoPresentIcon />
                                         <a className='mx-2'>Audit 2</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -236,10 +254,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EucKmEz4YeNBleWkaOoW-FIBDsPMMk9lqszhTAGwRtW2fw?e=dOwsbI">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EucKmEz4YeNBleWkaOoW-FIBDsPMMk9lqszhTAGwRtW2fw?e=dOwsbI">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <CoPresentIcon />
                                         <a className='mx-2'>Audit 3</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -253,10 +273,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Es7qrjmAIApGuoa1VChcEgIBH_0lS45EYtV-jS14oNUDpQ?e=q89WOg">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Es7qrjmAIApGuoa1VChcEgIBH_0lS45EYtV-jS14oNUDpQ?e=q89WOg">
+                                        <button className='btn btn-sm btn-outline-primary me-2' >
                                         <CoPresentIcon /> 
                                         <a className='mx-2'>Audit 4</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -270,10 +292,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EvwLNXG7dq9Fh7-MFw2EYXsBwOb0RAR-4Ymop4pJacU91w?e=dA1ofW">
+                                        <a  href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EvwLNXG7dq9Fh7-MFw2EYXsBwOb0RAR-4Ymop4pJacU91w?e=dA1ofW">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <CoPresentIcon /> 
                                         <a className='mx-2'>Mid Project Presentation</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -312,10 +336,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-1">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EvNPqfb2Lv9Pm76Nw_vjDqIBx1GUISlCuBNz8TaIi0lUcg?e=LUg7a0">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EvNPqfb2Lv9Pm76Nw_vjDqIBx1GUISlCuBNz8TaIi0lUcg?e=LUg7a0">
+                                        <button className='btn btn-sm btn-outline-primary me-2' >
                                         <RateReviewIcon />
                                         <a className='mx-2'>Audit 1</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -329,10 +355,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Eh6N6PPyEYREtNLEhHf55g4B5yAMsVKk7vYCswMVXqtJ3g?e=3HOb4K">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Eh6N6PPyEYREtNLEhHf55g4B5yAMsVKk7vYCswMVXqtJ3g?e=3HOb4K">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <RateReviewIcon />
                                         <a className='mx-2'>Audit 2</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -346,10 +374,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Emz8Vk4iMVxFrVfT2dtSL-ABxZJ4bK-EUyGTv8WsCHUkaA?e=E4Hlnq">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Emz8Vk4iMVxFrVfT2dtSL-ABxZJ4bK-EUyGTv8WsCHUkaA?e=E4Hlnq">
+                                        <button className='btn btn-sm btn-outline-primary me-2' >
                                         <RateReviewIcon />
                                         <a className='mx-2'>Audit 3</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -363,10 +393,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EpkfwIJsTftPqZQ63CQ1SBYB75LAnF6LBRqZM0PMMWJjVQ?e=ESOsbr">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EpkfwIJsTftPqZQ63CQ1SBYB75LAnF6LBRqZM0PMMWJjVQ?e=ESOsbr">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <RateReviewIcon />
                                         <a className='mx-2'>Audit 4</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -405,10 +437,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-1">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EsaE-ahHU_JPv1tBTqhGr-cBZdxSjVA9HlSxWUnvF0QS-g?e=dqxXnO">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EsaE-ahHU_JPv1tBTqhGr-cBZdxSjVA9HlSxWUnvF0QS-g?e=dqxXnO">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <EngineeringIcon />
                                         <a className='mx-2'>A. Requirements</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -422,10 +456,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EqURD8czYUFBmAVHj6orAnoBx1TqFJBEuJtYIV1K3zIZxA?e=SH5PXl">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EqURD8czYUFBmAVHj6orAnoBx1TqFJBEuJtYIV1K3zIZxA?e=SH5PXl">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <EngineeringIcon />
                                         <a className='mx-2'>B. Design Criteria</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -439,10 +475,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/El7fTal2AtFCk9rQJsrYXZYBTa8GEVnnkPBzNiIx12yZmg?e=8S8Rj2">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/El7fTal2AtFCk9rQJsrYXZYBTa8GEVnnkPBzNiIx12yZmg?e=8S8Rj2">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <EngineeringIcon />
                                         <a className='mx-2'>C. System Architecture</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -481,10 +519,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-1">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EuUJTt85QutFtQK02qT2A3wBOuCBflBrhOPQTyUneVu4Iw?e=Cs6P6S">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EuUJTt85QutFtQK02qT2A3wBOuCBflBrhOPQTyUneVu4Iw?e=Cs6P6S">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <WebIcon />
                                         <a className='mx-2'>Media</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -498,10 +538,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EreDhWxvmO1Gh19EB564oDAB58ecuTieDVpqBQ0BQjBelQ?e=qX98qB">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EreDhWxvmO1Gh19EB564oDAB58ecuTieDVpqBQ0BQjBelQ?e=qX98qB">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <WebIcon />
                                         <a className='mx-2'>Page Assets</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -515,10 +557,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EgJtNmHlOMNJgzNvwzh9G7sB4AIx6saQaD1F9rATiilKRw?e=rihM2c">
+                                        <a  href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EgJtNmHlOMNJgzNvwzh9G7sB4AIx6saQaD1F9rATiilKRw?e=rihM2c">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <WebIcon />
                                         <a className='mx-2'>Profile Pictures</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -532,10 +576,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EjtKYowcZk9Aril8AKjfr8wBHgdGc_vzmAT8ymdNls0UOg?e=ickt7T">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EjtKYowcZk9Aril8AKjfr8wBHgdGc_vzmAT8ymdNls0UOg?e=ickt7T">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <WebIcon />
                                         <a className='mx-2'>Totus Logos</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -574,10 +620,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-1">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EvLIVIi_2qdJmQBo9WwvDeABe1vpIL-A5zM984bxVzQrHw?e=PRb4n4">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EvLIVIi_2qdJmQBo9WwvDeABe1vpIL-A5zM984bxVzQrHw?e=PRb4n4">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <TravelExploreIcon />
                                         <a className='mx-2'>Additional Research</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -591,10 +639,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Ev34PqqT7lRHg9vv80m_WL8BPBRNl-yG5Tm-b1GB73bEmg?e=hy4yTe">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Ev34PqqT7lRHg9vv80m_WL8BPBRNl-yG5Tm-b1GB73bEmg?e=hy4yTe">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <TravelExploreIcon />
                                         <a className='mx-2'>Market Research</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -608,10 +658,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Ei5M0rTlOgBKpk3BQijtQXUB9qYPpArHDI6j8V9O9_c66w?e=ycq7ac">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Ei5M0rTlOgBKpk3BQijtQXUB9qYPpArHDI6j8V9O9_c66w?e=ycq7ac">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <TravelExploreIcon />
                                         <a className='mx-2'>Sub-System Research</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -650,10 +702,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-1">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EtfDBVBhsj1ErWXpkB6cnsAB6MuIz9Oq8Xhk02WmXCUlzA?e=bB0tOk">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EtfDBVBhsj1ErWXpkB6cnsAB6MuIz9Oq8Xhk02WmXCUlzA?e=bB0tOk">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <SocialDistanceIcon />
                                         <a className='mx-2'>Conflict Resolution</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -667,10 +721,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EuQxRUo_yHhKoiUEPkR9W0gBawtF_wYc26vcF440eNPfUg?e=uUAdvX">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EuQxRUo_yHhKoiUEPkR9W0gBawtF_wYc26vcF440eNPfUg?e=uUAdvX">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <SocialDistanceIcon />
                                         <a className='mx-2'>Detailed Decision Processes</a>
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -684,10 +740,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EhkoznoI8jhLuAU3dNjf37gBMSMADJDSSmxrz5Pr29XF0Q?e=cDwzfO">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EhkoznoI8jhLuAU3dNjf37gBMSMADJDSSmxrz5Pr29XF0Q?e=cDwzfO">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <SocialDistanceIcon />
                                         <a className='mx-2'>Systems Engineering Design Activities and Processes from ENGN2300</a> 
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -748,10 +806,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-1">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EmwfunnMZARPpr8xd6jMpfUBSncc_R-hyrm-qQUnFMyE1w?e=J90hJ6">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EmwfunnMZARPpr8xd6jMpfUBSncc_R-hyrm-qQUnFMyE1w?e=J90hJ6">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <ContactMailIcon />
                                         <a className='mx-2'>Ben Swift Cybernetics Interview</a> 
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -765,10 +825,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EhO60Sf3FWNFgYIQRj_V2NQB6njQ7jPppBuPnvveG3xvKw?e=Gt5pE6">   
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EhO60Sf3FWNFgYIQRj_V2NQB6njQ7jPppBuPnvveG3xvKw?e=Gt5pE6">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <ContactMailIcon />
                                         <a className='mx-2'>Justin Varley (Truck Driver) Interview</a> 
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
@@ -782,10 +844,12 @@ const Contents = () => {
                                 <div className="card-body">
                                     <h2 className="h6 mb-0">
                                         {/* Image Link and Header*/}
-                                        <button className='btn btn-sm btn-outline-primary me-2' href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Eg_iPH9cr8xAtF5tEafQrR4BmJOOEQEO0qv6zIeusZ1ruA?e=dRu1wi">
+                                        <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Eg_iPH9cr8xAtF5tEafQrR4BmJOOEQEO0qv6zIeusZ1ruA?e=dRu1wi">
+                                        <button className='btn btn-sm btn-outline-primary me-2'>
                                         <ContactMailIcon />
                                         <a className='mx-2'>Maia Gould Cybernetics Interview</a> 
                                         </button>
+                                        </a>
                                     </h2>
                                     <div className="card-portfolio-meta">
                                         {/* Description Text */}
