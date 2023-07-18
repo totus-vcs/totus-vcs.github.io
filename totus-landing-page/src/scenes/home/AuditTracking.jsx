@@ -13,7 +13,7 @@ export default function () {
 
                         {/* Audit 1 */}
                         <div class="col">
-                        <div class="card h-100 border-0 shadow-sm p-xxl-3"                            >
+                            <div class="card h-100 border-0 shadow-sm p-xxl-3">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                                         <div class="ps-4">
@@ -36,12 +36,12 @@ export default function () {
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
                                     <a
-                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EqbCu3xGd4VMrA4525YR_M4Bxb---VawQgqzuQNMeiWmMA?e=u6ijVN" 
+                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EqbCu3xGd4VMrA4525YR_M4Bxb---VawQgqzuQNMeiWmMA?e=u6ijVN"
                                         class="btn btn-outline-primary w-100 mb-2">
                                         View Submission
                                     </a>
                                     <a
-                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EpY_72pmd-pKpDYttYUEoY0Bfq7MM_daENLZOo73FPbvEw?e=wXgaiH" 
+                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EpY_72pmd-pKpDYttYUEoY0Bfq7MM_daENLZOo73FPbvEw?e=wXgaiH"
                                         class="btn btn-outline-primary w-100">
                                         View Feedback Review
                                     </a>
@@ -51,7 +51,7 @@ export default function () {
 
                         {/* Audit 2 */}
                         <div class="col">
-                        <div class="card h-100 border-0 bg-primary shadow-primary shadow-dark-mode-none p-xxl-3"                            >
+                            <div class="card h-100 border-0 shadow-sm p-xxl-3">
                                 <div class="card-body">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                                         <div class="ps-4">
@@ -73,29 +73,29 @@ export default function () {
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a 
-                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EtU7WtjVRihEpo2c-rSuarABfsS4hVUROmKjQ_jyLZHn7Q?e=frAhF1" 
-                                        class="btn btn-light w-100 mb-2">
+                                    <a
+                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EtU7WtjVRihEpo2c-rSuarABfsS4hVUROmKjQ_jyLZHn7Q?e=frAhF1"
+                                        class="btn btn-outline-primary w-100 mb-2">
                                         View Design and Testing Folder
                                     </a>
-                                    <a 
-                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/ErSDq3GNZQVLve-D1TvyuXEBm5pMssZLkPtW6zyvcAEFZg?e=ook5Hc" 
-                                        class="btn btn-light w-100 mb-2">
+                                    <a
+                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/ErSDq3GNZQVLve-D1TvyuXEBm5pMssZLkPtW6zyvcAEFZg?e=ook5Hc"
+                                        class="btn btn-outline-primary w-100 mb-2">
                                         View Research and Scoping Folder
                                     </a>
-                                    <a 
-                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Espp_gUWN3RMqpHnGrELzWkBHcB6P6gQgwF9bya0adt21A?e=hUdULP" 
-                                        class="btn btn-light w-100 mb-2">
+                                    <a
+                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/Espp_gUWN3RMqpHnGrELzWkBHcB6P6gQgwF9bya0adt21A?e=hUdULP"
+                                        class="btn btn-outline-primary w-100 mb-2">
                                         View Stakeholder Interviews
                                     </a>
                                 </div>
-                                
+
                             </div>
                         </div>
 
                         {/* Audit 3 */}
                         <div class="col">
-                            <div class="card h-100 border-0 shadow-sm p-xxl-3"                            >
+                            <div class="card h-100 border-0 bg-primary shadow-primary shadow-dark-mode-none p-xxl-3"                            >
                                 <div class="card-body">
                                     <div class="d-flex align-items-center pb-2 pb-md-3 mb-4">
                                         <div class="ps-4">
@@ -117,9 +117,9 @@ export default function () {
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a 
-                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EtU7WtjVRihEpo2c-rSuarABfsS4hVUROmKjQ_jyLZHn7Q?e=frAhF1" 
-                                        class="btn btn-outline-primary w-100">
+                                    <a
+                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EtU7WtjVRihEpo2c-rSuarABfsS4hVUROmKjQ_jyLZHn7Q?e=frAhF1"
+                                        class="btn btn-light w-100 mb-2">
                                         View Planning Document
                                     </a>
                                 </div>
@@ -150,8 +150,8 @@ export default function () {
                                     </ul>
                                 </div>
                                 <div class="card-footer border-0 pt-0 pb-4">
-                                    <a 
-                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u7335615_anu_edu_au/EiEW3y3iUIBOms0XvTfQ828BOxyPFaKzqHCu3t-V_aBoSg?e=SMeYaO" 
+                                    <a
+                                        href="https://anu365-my.sharepoint.com/:f:/g/personal/u7335615_anu_edu_au/EiEW3y3iUIBOms0XvTfQ828BOxyPFaKzqHCu3t-V_aBoSg?e=SMeYaO"
                                         class="btn btn-outline-primary w-100">
                                         View Planning Document
                                     </a>
