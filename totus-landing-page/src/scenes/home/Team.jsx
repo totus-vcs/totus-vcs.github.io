@@ -8,8 +8,8 @@ const Team = () => {
         </p>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
 
-            <TeamMemberIcon name="Borui Chen" role="Project Co-Lead" imageLoc="assets/img/team/borui.jpg" linkedInUrl="https://www.linkedin.com/in/borui-chen/" />
-            <TeamMemberIcon name="Evangeline Sturges" role="Project Co-Lead" imageLoc="assets/img/team/Evangeline.jpg" linkedInUrl="https://www.linkedin.com/in/evangeline-sturges-206b3a199/" />
+            <TeamMemberIcon name="Evangeline Sturges" role="Project Lead" imageLoc="assets/img/team/Evangeline.jpg" linkedInUrl="https://www.linkedin.com/in/evangeline-sturges-206b3a199/" />
+            <TeamMemberIcon name="Borui Chen" role="Project Co-Lead Semester 1" imageLoc="assets/img/team/borui.jpg" linkedInUrl="https://www.linkedin.com/in/borui-chen/" />
             <TeamMemberIcon name="Liam Smith" role="Communications" imageLoc="assets/img/team/liam.jpg" linkedInUrl="" />
             <TeamMemberIcon name="Daniel Cao" role="Vision Lead" imageLoc="assets/img/team/Daniel.jpg" linkedInUrl="https://www.linkedin.com/in/daniel-cao-5a92451ab/" />
         </div>

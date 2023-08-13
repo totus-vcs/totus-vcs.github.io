@@ -3,7 +3,7 @@
 
 import QuickLinks from "./QuickLinks";
 import HomeInfo from "./HomeInfo";
-import AuditTracking from "./AuditTracking";
+// import AuditTracking from "./AuditTracking";
 import Team from "./Team";
 import WhatsNew from "./WhatsNew"; 
 
@@ -14,7 +14,7 @@ const Home = () => {
         <HomeInfo/>  
         <WhatsNew/>
         <QuickLinks/>
-        <AuditTracking/>
+        {/* <AuditTracking/> */}
         <Team/>
         
     </div>
