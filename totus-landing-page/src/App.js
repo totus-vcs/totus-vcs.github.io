@@ -13,6 +13,8 @@ import BlogPage from "./scenes/Blog/BlogPage";
 import Post1 from "./scenes/Blog/Posts/01-welcome-to-totus";
 import Post2 from "./scenes/Blog/Posts/02-interviews-with-stakeholders";
 import Post3 from "./scenes/Blog/Posts/03-midprojectupdate";
+import Post4 from "./scenes/Blog/Posts/04-audit-2-update";
+import Post5 from "./scenes/Blog/Posts/05-we're-back";
 
 import ScrollToTop from "./components/ScrollToTop";
 import MediaPage from "./scenes/media";
@@ -55,7 +57,8 @@ function App() {
               <Route path="/01-welcome-to-totus" element={<Post1/>} />
               <Route path="/02-intervews-with-stakeholders" element={<Post2/>} />
               <Route path="/03-midprojectupdate" element={<Post3/>} />
-
+              <Route path="/04-audit-2-update" element={<Post4/>} />
+              <Route path="/05-we're-back" element={<Post5/>} />
             </Routes>
      
         </main>

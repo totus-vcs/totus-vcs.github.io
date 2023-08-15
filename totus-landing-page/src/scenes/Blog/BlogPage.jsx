@@ -25,6 +25,24 @@ const FeedbackBox = () => {
           </div>
 
           <BlogPreview
+            bgImage={"url(assets/img/blog_post_images/camera.jpg)"}
+            pageref="/05-we're-back"
+            date={"August 1, 2023"}
+            title={"We're back"}
+            previewText={"It's the moment you've all been waiting for, we are back and the project is now."}
+            authorAvatar={<LiamAuthor/>}
+          />
+
+          <BlogPreview
+            bgImage={"url(assets/img/blog_post_images/Audit-2.png)"}
+            pageref="/04-audit-2-update"
+            date={"May 23, 2023"}
+            title={"Audit 2 Update"}
+            previewText={"Last week we completed Audit 2 and presented our updates to fellow capstone groups at ANU!"}
+            authorAvatar={<LiamAuthor/>}
+          />
+
+          <BlogPreview
             bgImage={"url(assets/img/blog_post_images/03-present.jpg)"}
             pageref="/03-midprojectupdate"
             date={"May 12, 2023"}
