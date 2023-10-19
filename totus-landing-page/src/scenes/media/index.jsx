@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+import MediaItem from "../../components/mediaItem"
+
 const MediaPage = () => {
 
     return <section class="container py-5 my-md-3 my-lg-5" id="FeedbackBox">
@@ -23,6 +25,131 @@ const MediaPage = () => {
                     <section className="container pb-5 mb-2 mb-md-4 mb-lg-5">
                         <div className="row pb-lg-3">
 
+                            {/*Showcase*/}
+                            {/* Item - Link*/}
+                            <div className="col-md-5 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/12-team.jpg" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <Link to="/12-showcase" className="stretched-link">
+                                                Showcase!
+                                            </Link>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                                Was a great day, proud to show our system at the ANU Capstone showcase.                       
+                                                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/*Logitech*/}
+                            {/* Item - Link*/}
+                            <div className="col-md-3 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/11-logitech.jpg" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <Link to="/11-tirrncode" className="stretched-link">
+                                                Logitech Driving Control
+                                            </Link>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                                We are using the Logitech G25 steering system - looks pretty cool!                                 
+                                                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/*Working on Servos*/}
+                            {/* Item - Link*/}
+                            <div className="col-md-3 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/07-servo.png" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <Link to="/07-servo" className="stretched-link">
+                                                Tirrn and Evangeline debugging the motors.
+                                            </Link>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                                Lots of learning and upskilling. Really pleased to have a system with a fast response this early!                                        
+                                                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/*Working on car*/}
+                            {/* Item - Link*/}
+                            <div className="col-md-4 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/06-workingincar.jpg" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <Link to="/06-unlocking-vision" className="stretched-link">
+                                                Daniel and Evangeline testing the vision system.
+                                            </Link>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                                It was a very warm day in Canberra.                                             </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Camera  */}
+                            {/* Item - Link*/}
+                            <div className="col-md-4 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/06-camera.jpg" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <Link to="/06-unlocking-vision" className="stretched-link">
+                                                The Megapixel 720p USB Wide-angle Camera
+                                            </Link>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                                Boasts impressive specifications, including a 720p resolution, a wide 140-degree field of view (FOV), and a smooth 30 frames per second (fps) capture rate. These specifications make it an ideal choice for our project, offering the clarity and wide coverage we need to capture critical data and also meet the clients' requirements.
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
                             {/* ANU Article:  */}
                             {/* Item - Link*/}
                             <div className="col-md-5 mb-2">
@@ -35,13 +162,13 @@ const MediaPage = () => {
                                         <h2 className="h4 mb-2">
                                             {/* Image Link and Header*/}
                                             <a href="https://cecc.anu.edu.au/news/would-you-trust-ai-drive-semi-trailer" className="stretched-link">
-                                            ANU College of Engineering Article: Would you trust AI to drive a semi trailer?
+                                                ANU College of Engineering Article: Would you trust AI to drive a semi trailer?
                                             </a>
                                         </h2>
                                         <div className="card-portfolio-meta">
                                             {/* Description Text */}
                                             <span className="text-muted">
-                                            ANU have published a great article about the TOTUS project, particularly about the project's beginnings in 2022, and a great interview with this project's CEO, Alex!
+                                                ANU have published a great article about the TOTUS project, particularly about the project's beginnings in 2022, and a great interview with this project's CEO, Alex!
                                             </span>
                                         </div>
                                     </div>
@@ -66,13 +193,13 @@ const MediaPage = () => {
                                         <div className="card-portfolio-meta">
                                             {/* Description Text */}
                                             <span className="text-muted">
-                                                Some initial designs developed by our mechanics team, to show off at the mid project presentation. 
+                                                Some initial designs developed by our mechanics team, to show off at the mid project presentation.
                                             </span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            
+
                             {/* Vision mid project Update */}
                             {/* Item - Link*/}
                             <div className="col-md-5 mb-2">
@@ -91,7 +218,7 @@ const MediaPage = () => {
                                         <div className="card-portfolio-meta">
                                             {/* Description Text */}
                                             <span className="text-muted">
-                                                Filming in a car, to get an initial idea about how the vision system will work. 
+                                                Filming in a car, to get an initial idea about how the vision system will work.
                                             </span>
                                         </div>
                                     </div>
@@ -100,7 +227,7 @@ const MediaPage = () => {
 
                             {/* JUSTIN */}
                             {/* Item - Link*/}
-                            <div className="col-md-5 mb-2">
+                            <div className="col-md-3 mb-2">
                                 <div className="card card-portfolio">
                                     <div className="card-img">
                                         {/* Image */}
@@ -125,7 +252,7 @@ const MediaPage = () => {
 
                             {/* MAIA */}
                             {/* Item - Link*/}
-                            <div className="col-md-5 mb-2">
+                            <div className="col-md-3 mb-2">
                                 <div className="card card-portfolio">
                                     <div className="card-img">
                                         {/* Image */}
@@ -141,7 +268,7 @@ const MediaPage = () => {
                                         <div className="card-portfolio-meta">
                                             {/* Description Text */}
                                             <span className="text-muted">
-                                                Maia is the Cybernetic Engagements Lead the for the School of Cybernetics. She had interesting legal and ethical perspectives for our project. 
+                                                Maia is the Cybernetic Engagements Lead the for the School of Cybernetics. She had interesting legal and ethical perspectives for our project.
                                             </span>
                                         </div>
                                     </div>
@@ -175,7 +302,7 @@ const MediaPage = () => {
 
                             {/* Team TOTUS */}
                             {/* Item - No Link*/}
-                            <div className="col-md-7 mb-2">
+                            <div className="col-md-5 mb-2">
                                 <div className="card card-portfolio">
                                     <div className="card-img ">
                                         {/* Image */}
@@ -198,7 +325,7 @@ const MediaPage = () => {
 
                             {/* TEAM MEETING WITH ALEX  */}
                             {/* Item - No Link*/}
-                            <div className="col-md-7 mb-2">
+                            <div className="col-md-5 mb-2">
                                 <div className="card card-portfolio">
                                     <div className="card-img">
                                         {/* Image */}

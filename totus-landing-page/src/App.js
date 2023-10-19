@@ -15,6 +15,16 @@ import Post2 from "./scenes/Blog/Posts/02-interviews-with-stakeholders";
 import Post3 from "./scenes/Blog/Posts/03-midprojectupdate";
 import Post4 from "./scenes/Blog/Posts/04-audit-2-update";
 import Post5 from "./scenes/Blog/Posts/05-we're-back";
+import Post6 from "./scenes/Blog/Posts/06-unlocking-vision";
+import Post7 from "./scenes/Blog/Posts/07-code";
+import Post8 from "./scenes/Blog/Posts/08-evie-code";
+import Post9 from "./scenes/Blog/Posts/09-yuqi";
+import Post10 from "./scenes/Blog/Posts/10-liam";
+import Post11 from "./scenes/Blog/Posts/11-tirrncode";
+import Post12 from "./scenes/Blog/Posts/12-showcase";
+
+
+
 
 import ScrollToTop from "./components/ScrollToTop";
 import MediaPage from "./scenes/media";
@@ -59,6 +69,16 @@ function App() {
               <Route path="/03-midprojectupdate" element={<Post3/>} />
               <Route path="/04-audit-2-update" element={<Post4/>} />
               <Route path="/05-we're-back" element={<Post5/>} />
+              <Route path="/06-unlocking-vision" element={<Post6/>} />
+              <Route path="/07-code" element={<Post7/>} />
+              <Route path="/08-evie-code" element={<Post8/>} />
+              <Route path="/09-yuqi" element={<Post9/>} />
+              <Route path="/10-liam" element={<Post10/>} />
+              <Route path="/11-tirrncode" element={<Post11/>} />
+              <Route path="/12-showcase" element={<Post12/>} />
+
+
+
             </Routes>
      
         </main>

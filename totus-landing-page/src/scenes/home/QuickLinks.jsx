@@ -39,7 +39,7 @@ export default function () {
                             />
                         </div>
                         <h3 class="h5 pb-1 mb-2">
-                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/0.%20Administration/Meeting%20Minutes?csf=1&web=1&e=CMMBlE">
+                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/TOTUS%202023%20Repository/0.%20Administration/Meeting%20Minutes?csf=1&web=1&e=WJXzKY">
                                 <u>Meeting Minutes</u>
                             </a>
                         </h3>
@@ -56,7 +56,7 @@ export default function () {
                             />
                         </div>
                         <h3 class="h5 pb-1 mb-2">
-                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/06.%20Decision%20Making%20and%20Conflict%20Resolution?csf=1&web=1&e=a2M8zq">
+                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/TOTUS%202023%20Repository/3.%20Decision%20and%20Risk?csf=1&web=1&e=dxIxEr">
                                 <u>Decision Log</u>
                             </a>
                         </h3>
@@ -76,7 +76,7 @@ export default function () {
                             />
                         </div>
                         <h3 class="h5 pb-1 mb-2">
-                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/0.%20Administration/Work%20Structure%20and%20Gantt?csf=1&web=1&e=whpTzi">
+                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/TOTUS%202023%20Repository/0.%20Administration/Work%20Structure%20and%20Gantt?csf=1&web=1&e=vfkxhX">
                                 <u>Work Structure</u>
                             </a>
                         </h3>
@@ -95,7 +95,7 @@ export default function () {
                             />
                         </div>
                         <h3 class="h5 pb-1 mb-2">
-                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/02.%20Feedback%20Review?csf=1&web=1&e=3zBqGF">
+                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/TOTUS%202023%20Repository/1.%20Audits%20and%20Status%20Reports?csf=1&web=1&e=M84YDD">
                                 <u>Audits and Reviews</u>
                             </a>
                         </h3>
@@ -114,7 +114,7 @@ export default function () {
                             />
                         </div>
                         <h3 class="h5 pb-1 mb-2">
-                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/05.%20Research%20and%20Scoping/Scope?csf=1&web=1&e=MbJpNT">
+                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/TOTUS%202023%20Repository/4.%20Research%20and%20Scoping/Scope?csf=1&web=1&e=5b0IW8">
                                 <u>Scope</u>
                             </a>
                         </h3>
@@ -133,7 +133,7 @@ export default function () {
                             />
                         </div>
                         <h3 class="h5 pb-1 mb-2">
-                            <a href="https://anu365-my.sharepoint.com/:f:/g/personal/u6986400_anu_edu_au/EpaIU0-y2WlIsWINW9_F9T4BgsW51BfQxtqpkoFGAGJByg?e=Q9xrsR">
+                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/TOTUS%202023%20Repository/5.%20Design%20and%20Testing?csf=1&web=1&e=fw9zVt">
                                 <u>Design</u>
                             </a>
                         </h3>
@@ -152,7 +152,7 @@ export default function () {
                             />
                         </div>
                         <h3 class="h5 pb-1 mb-2">
-                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/08.%20External%20Communication?csf=1&web=1&e=O4dm2m">
+                            <a href="https://anu365-my.sharepoint.com/:f:/r/personal/u6986400_anu_edu_au/Documents/ENGN4300-TOTUS%20(2023)/TOTUS%202023%20Repository/2.%20External%20Communication?csf=1&web=1&e=vXcTlS">
                                 <u>Stakeholders</u>
                             </a>
                         </h3>

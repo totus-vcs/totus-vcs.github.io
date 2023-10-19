@@ -8,7 +8,7 @@ import LiamAuthor from "../../components/AuthorAvatar/LiamAuthor"
 import BlogPreview from "../../components/BlogPreview"
 
 const FeedbackBox = () => {
- 
+
   return <section class="container py-5 my-md-3 my-lg-5" id="FeedbackBox">
     <div>
 
@@ -25,21 +25,84 @@ const FeedbackBox = () => {
           </div>
 
           <BlogPreview
+            bgImage={"url(assets/img/blog_post_images/12-team.jpg)"}
+            pageref="/12-showcase"
+            date={"October 14, 2023"}
+            title={"Time to Showcase our Design"}
+            previewText={"ANU's Capstone showcase day was a success!"}
+            authorAvatar={<EvangelineAuthor/>}
+          />
+
+          <BlogPreview
+            bgImage={"url(assets/img/blog_post_images/11-logitech.jpg)"}
+            pageref="/11-tirrncode"
+            date={"October 10, 2023"}
+            title={"Jetson Nano and Logitech G25 in Sync "}
+            previewText={"Jetson Nano is now perfectly synchronized with the Logitech G25 steering set and pedals, marking a significant milestone in our project."}
+            authorAvatar={<TirrnAuthor />}
+          />
+
+          <BlogPreview
+            bgImage={"url(assets/img/blog_post_images/08-cv.png)"}
+            pageref="/10-liam"
+            date={"October 5, 2023"}
+            title={"Liam TBA"}
+            previewText={"TBA"}
+            authorAvatar={<LiamAuthor />}
+          />
+
+          <BlogPreview
+            bgImage={"url(assets/img/blog_post_images/08-cv.png)"}
+            pageref="/09-yuqi"
+            date={"September 30, 2023"}
+            title={"Yuqi TBA"}
+            previewText={"TBA"}
+            authorAvatar={<YuqiAuthor />}
+          />
+
+          <BlogPreview
+            bgImage={"url(assets/img/blog_post_images/08-cv.png)"}
+            pageref="/08-evie-code"
+            date={"September 14, 2023"}
+            title={"Optimizing Latency in Our TOTUS Remote Driving System"}
+            previewText={"In the world of autonomous vehicles, every millisecond counts."}
+            authorAvatar={<EvangelineAuthor />}
+          />
+
+          <BlogPreview
+            bgImage={"url(assets/img/blog_post_images/07-jetson.png)"}
+            pageref="/07-code"
+            date={"September 03, 2023"}
+            title={"Driving Progress: Servo Success with Jetson and Adafruit for Safer Autonomous Vehicles"}
+            previewText={"Today, we're excited to share a significant achievement in our journey: coding and testing the servos!"}
+            authorAvatar={<DanielAuthor />}
+          />
+
+          <BlogPreview
+            bgImage={"url(assets/img/blog_post_images/06-camera.jpg)"}
+            pageref="/06-unlocking-vision"
+            date={"August 20, 2023"}
+            title={"Unlocking Crystal Clear Vision: Introducing Our Megapixel 720p USB Wide-angle Camera for Raspberry Pi and NVIDIA Jetson Nano"}
+            previewText={"We are thrilled to share a significant development in our project's camera system."}
+            authorAvatar={<DanielAuthor />}
+          />
+
+          <BlogPreview
             bgImage={"url(assets/img/blog_post_images/camera.jpg)"}
             pageref="/05-we're-back"
             date={"August 1, 2023"}
-            title={"We're back"}
+            title={"We're back: The project is now"}
             previewText={"It's the moment you've all been waiting for, we are back and the project is now."}
-            authorAvatar={<LiamAuthor/>}
+            authorAvatar={<LiamAuthor />}
           />
 
           <BlogPreview
             bgImage={"url(assets/img/blog_post_images/Audit-2.png)"}
             pageref="/04-audit-2-update"
             date={"May 23, 2023"}
-            title={"Audit 2 Update"}
+            title={"Audit 2 Update: Systems Engineering and Design Thinking"}
             previewText={"Last week we completed Audit 2 and presented our updates to fellow capstone groups at ANU!"}
-            authorAvatar={<LiamAuthor/>}
+            authorAvatar={<LiamAuthor />}
           />
 
           <BlogPreview
@@ -48,16 +111,16 @@ const FeedbackBox = () => {
             date={"May 12, 2023"}
             title={"Mid Project Update"}
             previewText={"Yesterday we presented our mid project update to fellow capstone groups at ANU!"}
-            authorAvatar={<EvangelineAuthor/>}
+            authorAvatar={<EvangelineAuthor />}
           />
 
           <BlogPreview
             bgImage={"url(assets/img/blog_post_images/InterviewJustin.png)"}
             pageref="/02-intervews-with-stakeholders"
             date={"April 17, 2023"}
-            title={"Interviews with Stakeholders"}
+            title={"Some Chats with Drivers and Logistics"}
             previewText={"This week we had a chat with some great stakeholders and researchers, and gained some very insightful information about our project."}
-            authorAvatar={<div><DanielAuthor/><LiamAuthor/></div>}
+            authorAvatar={<div><DanielAuthor /><LiamAuthor /></div>}
           />
 
           <BlogPreview
@@ -66,11 +129,8 @@ const FeedbackBox = () => {
             date={"March 10, 2023"}
             title={"Welcome to Totus 2023"}
             previewText={"Following the COVID-19 pandemic and an increasing demand for truck drivers in Australia the logistics industry is facing more challenges than ever. This is where TOTUS comes in..."}
-            authorAvatar={<EvangelineAuthor/>}
+            authorAvatar={<EvangelineAuthor />}
           />
-
-          
-
 
         </section>
 
