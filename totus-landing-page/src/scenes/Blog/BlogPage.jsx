@@ -43,21 +43,21 @@ const FeedbackBox = () => {
           />
 
           <BlogPreview
-            bgImage={"url(assets/img/blog_post_images/08-cv.png)"}
-            pageref="/10-liam"
+            bgImage={"url(assets/img/blog_post_images/09-poster.png)"}
+            pageref="/09-yuqi"
             date={"October 5, 2023"}
-            title={"Liam TBA"}
-            previewText={"TBA"}
-            authorAvatar={<LiamAuthor />}
+            title={"Sneak Preview of our Showcase Poster"}
+            previewText={"Come check our project out on the 14th of October!"}
+            authorAvatar={<EvangelineAuthor />}
           />
 
           <BlogPreview
-            bgImage={"url(assets/img/blog_post_images/08-cv.png)"}
-            pageref="/09-yuqi"
+            bgImage={"url(assets/img/blog_post_images/10-truck.png)"}
+            pageref="/10-liam"
             date={"September 30, 2023"}
-            title={"Yuqi TBA"}
-            previewText={"TBA"}
-            authorAvatar={<YuqiAuthor />}
+            title={"Finalised Mechanics Design for the 2023 TOTUS Project"}
+            previewText={"Hey there, folks! We're excited to share some exciting updates regarding the finalised mechanics design for our car project."}
+            authorAvatar={<LiamAuthor />}
           />
 
           <BlogPreview
@@ -75,7 +75,7 @@ const FeedbackBox = () => {
             date={"September 03, 2023"}
             title={"Driving Progress: Servo Success with Jetson and Adafruit for Safer Autonomous Vehicles"}
             previewText={"Today, we're excited to share a significant achievement in our journey: coding and testing the servos!"}
-            authorAvatar={<DanielAuthor />}
+            authorAvatar={<TirrnAuthor />}
           />
 
           <BlogPreview

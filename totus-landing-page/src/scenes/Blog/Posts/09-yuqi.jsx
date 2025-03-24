@@ -1,8 +1,8 @@
-// import EvangelineAuthor from "../../../components/AuthorAvatar/EvangelineAuthor"
+import EvangelineAuthor from "../../../components/AuthorAvatar/EvangelineAuthor"
 // import BoruiAuthor from "../../../components/AuthorAvatar/BoruiAuthor"
 // import DanielAuthor from "../../../components/AuthorAvatar/DanielAuthor"
 // import TirrnAuthor from "../../../components/AuthorAvatar/TirrnAuthor"
-import YuqiAuthor from "../../../components/AuthorAvatar/YuqiAuthor"
+// import YuqiAuthor from "../../../components/AuthorAvatar/YuqiAuthor"
 // import LiamAuthor from "../../../components/AuthorAvatar/LiamAuthor"
 import { Link } from "react-router-dom"; 
 
@@ -15,37 +15,23 @@ export default function () {
 
           {/* HEADING */}
           <h1 className="pb-0" style={{ maxWidth: 970 }}>
-            Welcome to Totus 2023!
+           Sneak peak of our showcase poster!
           </h1>
 
           {/* DATE */}
           <div className="fs-sm pe-3 me-1 mb-1">
-          September 30, 2023
+          5 October, 2023
           </div>
 
           {/* CHANGE AUTHOR AVATAR */}
-          <YuqiAuthor />
+          <EvangelineAuthor />
           
           {/* Leave */}
           <hr className="my-4" />
 
 
         </section>
-        <div
-          className="jarallax mb-lg-5 mb-4"
-          data-jarallax
-          data-speed="0.35"
-          style={{ height: "36.45vw", minHeight: 300 }}
-        >
-
-          {/* CHANGE URL OF IMAGE BELOW */}
-          <div
-            className="jarallax-img"
-            style={{
-              backgroundImage: "url(assets/img/blog/single/cover-image.jpg)",
-            }}
-          />
-        </div>
+        
 
         {/* Post Content - in this section/divider*/}
         <section className="container mb-5 pt-4 pb-2 py-mg-4">
@@ -56,71 +42,16 @@ export default function () {
 
               {/* Subtitle */}
               <h3 className="h5 mb-4 pb-2 fw-medium">
-                This is the subtitle with the main point or cool thing to talk about first
+                Here's a sneak preview of our poster. We have some exciting things planned for the ANU showcase, including being able to control the car! Come check us out on October 14.
               </h3>
 
-              {/* Paragraph title */}
-              <h2 className="h4">Paragraph Title</h2>
-
-              {/* Normal Text */}
-              <p className="mb-4 pb-2">
-                Normal text goes here big paragraph. Breaks are like this: <br/> 
-                Hello this is me la la la paragraph text
-              </p>
-
-              {/* Video */}
-              <div className="gallery mb-4 pb-2" data-video="true">
-                <a
-                  href="https://www.youtube.com/watch?v=LDb-G8y88Sc"
-                  className="gallery-item video-item is-hovered rounded-3"
-                  data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'
-                >
-                  <img
-                    src="assets/img/blog/single/video-cover.jpg"
-                    alt="Video preview"
-                  />
-                </a>
+              <div className="mb-4 pb-2" >
+                <img
+                  className=""
+                  src="assets/img/blog_post_images/09-poster.png"
+                  alt="Ben Swift Interview"
+                />
               </div>
-
-              {/* Quotation */}
-              <figure className="position-relative mb-4 ps-4">
-                <span className="position-absolute top-0 start-0 w-3 h-100 bg-primary" />
-                <blockquote className="blockquote fs-xl fw-medium text-dark ps-1 ps-sm-3">
-                  <p>
-                    Sollicitudin eget massa, elementum, purus nec fermentum vitae,
-                    elementum. Tincidunt vulputate lorem cursus id. Dictum tincidunt
-                    mi ornare tristique. Id sit elit pulvinar eu. Tempus vel, mauris
-                    sed proin aliquet vulputate cras est. Ut ornare eget a viverra.
-                  </p>
-                </blockquote>
-              </figure>
-
-              {/* Pros and Cons List */}
-              <h4 className="h6">
-                <i className="bx bx-plus-circle me-1 mt-n1 align-middle fs-5 text-primary" />
-                PROS
-              </h4>
-              <ul className="mb-4 pb-2 ps-4">
-                <li className="mb-1">
-                  Pro item number 1
-                </li>
-                <li className="mb-1">
-                  Pro item number 2
-                </li>
-              </ul>
-              <h4 className="h6">
-                <i className="bx bx-minus-circle me-1 mt-n1 align-middle fs-5 text-primary" />
-                CONS
-              </h4>
-              <ul className="mb-4 pb-2 ps-4">
-                <li className="mb-1">
-                  Con item number 1
-                </li>
-                <li className="mb-1">
-                  Con item number 2
-                </li>
-              </ul>
-
 
             </div>
             {/* Sidebar - LEAVE ME ALONE*/}

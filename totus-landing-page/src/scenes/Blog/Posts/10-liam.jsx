@@ -4,7 +4,7 @@
 // import TirrnAuthor from "../../../components/AuthorAvatar/TirrnAuthor"
 // import YuqiAuthor from "../../../components/AuthorAvatar/YuqiAuthor"
 import LiamAuthor from "../../../components/AuthorAvatar/LiamAuthor"
-import { Link } from "react-router-dom"; 
+import { Link } from "react-router-dom";
 
 export default function () {
   return <section class="container py-5 my-md-2 my-lg-4 my-xl-5">
@@ -15,37 +15,21 @@ export default function () {
 
           {/* HEADING */}
           <h1 className="pb-0" style={{ maxWidth: 970 }}>
-            Welcome to Totus 2023!
+            Finalised Mechanics Design for the 2023 TOTUS Project
           </h1>
 
           {/* DATE */}
           <div className="fs-sm pe-3 me-1 mb-1">
-          October 5, 2023
+            September 30, 2023
           </div>
 
           {/* CHANGE AUTHOR AVATAR */}
           <LiamAuthor />
-          
+
           {/* Leave */}
           <hr className="my-4" />
 
-
         </section>
-        <div
-          className="jarallax mb-lg-5 mb-4"
-          data-jarallax
-          data-speed="0.35"
-          style={{ height: "36.45vw", minHeight: 300 }}
-        >
-
-          {/* CHANGE URL OF IMAGE BELOW */}
-          <div
-            className="jarallax-img"
-            style={{
-              backgroundImage: "url(assets/img/blog/single/cover-image.jpg)",
-            }}
-          />
-        </div>
 
         {/* Post Content - in this section/divider*/}
         <section className="container mb-5 pt-4 pb-2 py-mg-4">
@@ -56,70 +40,61 @@ export default function () {
 
               {/* Subtitle */}
               <h3 className="h5 mb-4 pb-2 fw-medium">
-                This is the subtitle with the main point or cool thing to talk about first
-              </h3>
+                Hey there, folks! We're excited to share some exciting updates regarding the finalised mechanics design for our car project. This significant progress centres on the steering and pedal sub-systems. Let's delve into the details:              </h3>
+
+              <div className="mb-4 pb-2" >
+                <img
+                  className=""
+                  src="assets/img/blog_post_images/10-truck.png"
+                  alt="Ben Swift Interview"
+                />
+              </div>
+
 
               {/* Paragraph title */}
-              <h2 className="h4">Paragraph Title</h2>
+              <h2 className="h4">The Pedal System:</h2>
 
               {/* Normal Text */}
               <p className="mb-4 pb-2">
-                Normal text goes here big paragraph. Breaks are like this: <br/> 
-                Hello this is me la la la paragraph text
+                Our pedal sub-system is responsible for controlling the car's accelerator and brake. It comprises two motors equipped with metal rods that push down on the pedals at an angle. These motors are securely mounted to the car floor using a new, robust mounting system that we've developed. <br /> <br />
+                Throughout the project, we've explored various design ideas aiming for a universal retrofittable solution, including the use of easy-to-adjust tension bars. However, given our constraints in terms of resources and schedule, we decided to go with a simpler, floor-mounted design. <br /><br />
+                This design was inspired by the 2022 TOTUS team's attempt, which, though innovative, wasn't successful due to the mounting system being constructed entirely from wood, unable to withstand the high torque of the motor. In our iteration, we used a combination of metal brackets for the motor's mounting, ensuring it could withstand the force. With rigorous testing and fine-tuning from our software sub-team, the pedal system now works accurately according to the input from the Logitech G25 controller. <br /><br />
+                Achieving a functioning pedal system represents a significant leap forward compared to the previous year's design and brings us one step closer to our ultimate goal.
+
               </p>
 
-              {/* Video */}
-              <div className="gallery mb-4 pb-2" data-video="true">
-                <a
-                  href="https://www.youtube.com/watch?v=LDb-G8y88Sc"
-                  className="gallery-item video-item is-hovered rounded-3"
-                  data-sub-html='<h6 class="fs-sm text-light">Video inside blog post</h6>'
-                >
-                  <img
-                    src="assets/img/blog/single/video-cover.jpg"
-                    alt="Video preview"
-                  />
-                </a>
+              <div className="mb-4 pb-2" >
+                <img
+                  className=""
+                  src="assets/img/blog_post_images/10-pedal.png"
+                  alt="Ben Swift Interview"
+                />
               </div>
 
-              {/* Quotation */}
-              <figure className="position-relative mb-4 ps-4">
-                <span className="position-absolute top-0 start-0 w-3 h-100 bg-primary" />
-                <blockquote className="blockquote fs-xl fw-medium text-dark ps-1 ps-sm-3">
-                  <p>
-                    Sollicitudin eget massa, elementum, purus nec fermentum vitae,
-                    elementum. Tincidunt vulputate lorem cursus id. Dictum tincidunt
-                    mi ornare tristique. Id sit elit pulvinar eu. Tempus vel, mauris
-                    sed proin aliquet vulputate cras est. Ut ornare eget a viverra.
-                  </p>
-                </blockquote>
-              </figure>
+              <h2 className="h4">The Steering System:</h2>
 
-              {/* Pros and Cons List */}
-              <h4 className="h6">
-                <i className="bx bx-plus-circle me-1 mt-n1 align-middle fs-5 text-primary" />
-                PROS
-              </h4>
-              <ul className="mb-4 pb-2 ps-4">
-                <li className="mb-1">
-                  Pro item number 1
-                </li>
-                <li className="mb-1">
-                  Pro item number 2
-                </li>
-              </ul>
-              <h4 className="h6">
-                <i className="bx bx-minus-circle me-1 mt-n1 align-middle fs-5 text-primary" />
-                CONS
-              </h4>
-              <ul className="mb-4 pb-2 ps-4">
-                <li className="mb-1">
-                  Con item number 1
-                </li>
-                <li className="mb-1">
-                  Con item number 2
-                </li>
-              </ul>
+              {/* Normal Text */}
+              <p className="mb-4 pb-2">
+                Just like the pedal system, we considered more idealistic designs for the steering system, which would be perfect for future iterations of this project. However, since our primary focus was integrating all systems within our resources and schedule, these designs were set aside. <br /><br />
+                In our quest for improvements, we revisited last year's design. The 2022 TOTUS team did have a working steering system, but it had notable design flaws. The angular gears, while innovative, featured a very basic straight triangular-toothed design that did not account for the angular movement of the gears. This led to teeth slipping and issues during operation. <br /><br />
+                To address this, we developed our own bevel gears, which are industry-standard for angular gears and specifically designed to mesh seamlessly at specified angles. The result was an effective steering system that could respond to Logitech G25 controller inputs with minimal slipping. <br /><br />
+                However, an unexpected challenge emerged when we discovered that the mounting system inherited from last year's team had almost-worn-out screw holes. After a few rounds of testing and demonstrations, the mounting system began to slip and detach. <br /><br />
+                This experience reinforced the importance of an effective handover process for next year's team. It also highlighted the room for further improvements in our steering system. <br /><br />
+
+              </p>
+
+              <div className="mb-4 pb-2" >
+                <img
+                  className=""
+                  src="assets/img/blog_post_images/10-steer.png"
+                  alt="Ben Swift Interview"
+                />
+              </div>
+
+              <h3 className="h5 mb-4 pb-2 fw-medium">
+                In summary, we've made substantial progress in finalizing the mechanical sub-systems, and we're excited about the direction our car project is headed. With the pedal and steering systems in place, we're one step closer to realizing our vision. Stay tuned for more updates as we continue to refine and enhance our project. Your support is greatly appreciated!
+
+              </h3>
 
 
             </div>
@@ -144,10 +119,10 @@ export default function () {
           </div>
         </section>
 
-        
+
       </main>
       {/* Footer */}
-      
+
       {/* Back to top button */}
       <a href="#top" className="btn-scroll-top" data-scroll>
         <span className="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span>

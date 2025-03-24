@@ -50,6 +50,81 @@ const MediaPage = () => {
                                 </div>
                             </div>
 
+                            {/*poster*/}
+                            {/* Item - Link*/}
+                            <div className="col-md-6 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/09-poster.png" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <Link to="/09-yuqi" className="stretched-link">
+                                                Our ANU Capstone Showcase Poster
+                                            </Link>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                                Visit our stall on October 14!                
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/*Steering*/}
+                            {/* Item - Link*/}
+                            <div className="col-md-5 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/10-steer.png" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <Link to="/10-liam" className="stretched-link">
+                                                Steering Design
+                                            </Link>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                                A retrofittable steering solution, unique gear system.                    
+                                                </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/*Pedals*/}
+                            {/* Item - Link*/}
+                            <div className="col-md-5 mb-2">
+                                <div className="card card-portfolio">
+                                    <div className="card-img">
+                                        {/* Image */}
+                                        <img src="assets/img/blog_post_images/10-pedal.png" alt="Image" />
+                                    </div>
+                                    <div className="card-body">
+                                        <h2 className="h4 mb-2">
+                                            {/* Image Link and Header*/}
+                                            <Link to="/10-liam" className="stretched-link">
+                                                Pedal Design
+                                            </Link>
+                                        </h2>
+                                        <div className="card-portfolio-meta">
+                                            {/* Description Text */}
+                                            <span className="text-muted">
+                                                A retrofittable pedal solution, with new stronger mounting to the car.                     
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                             {/*Logitech*/}
                             {/* Item - Link*/}
                             <div className="col-md-3 mb-2">
